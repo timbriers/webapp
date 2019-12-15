@@ -1,5 +1,6 @@
 <?php
 echo gethostname();
+echo '<img src="https://hosting-images-pe.s3.amazonaws.com/aws-s3-bucket.png">';
 echo "<br>";
 $password = "globaluser";
 $servername = "${mysqlip}";
