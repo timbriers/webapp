@@ -3,7 +3,7 @@ echo gethostname();
 echo "<br>";
 echo '<img src="https://my-tf-bucket-cloud-networkdiagram.s3.amazonaws.com/image.png">';
 echo "<br>";
-$password = "globaluser";
+$password = "${password}";
 $servername = "${mysqlip}";
 $username = "globaluser";
 $dbname = "employees";
